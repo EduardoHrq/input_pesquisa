@@ -5,7 +5,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: rgb(71, 71, 77);
-    
+    transition: 1s ease-in-out;
 }
 
 .search{
@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 1s;
+    transition: 1s ease-in-out;
 }
 
 .search-txt{
@@ -31,7 +31,7 @@ body{
     font-weight: bold;
     font-size: 14pt;
     width: 0;
-    transition: 1s;
+    transition: 1s ease-in-out;
 }
 
 .search-btn{
@@ -41,7 +41,7 @@ body{
     padding: 10px;
     border-radius: 50%;
     display: flex;
-    transition: 1s;
+    transition: 1s ease-in-out;
 }
 
 .search:hover > .search-txt{
